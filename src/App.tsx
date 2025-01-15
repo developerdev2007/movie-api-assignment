@@ -12,7 +12,7 @@ const App = () => {
   console.log(data, error, isLoading, isSuccess);
 
   return (
-    <div className="bg-gray-100  dark:bg-gray-900  dark:text-white">
+    <div className="max-w-screen-2xl mx-auto ">
       <Header />
       <Routes>
         <Route path="/" Component={Movie} />

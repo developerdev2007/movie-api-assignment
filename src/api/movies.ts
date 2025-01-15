@@ -6,7 +6,7 @@ export function useFetchMovies() {
     queryKey: ["movie"],
     queryFn: async () => {
       const { data, status } = await axios.get(
-        "https://www.freetestapi.com/api/v1/movies?limit=5"
+        "https://www.freetestapi.com/api/v1/movies"
       );
       if (status !== 200) {
         console.log(`Error :${status}`);

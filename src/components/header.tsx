@@ -14,7 +14,7 @@ const Header = () => {
   const { setTheme } = useTheme();
 
   return (
-    <header className="w-full min-h-[60px] max-h-[64px] bg-gray-800 text-white">
+    <header className="overflow-hidden w-full min-h-[60px] max-h-[64px] bg-gray-400  dark:bg-gray-800 dark:text-white">
       <nav className="mx-auto max-w-2xl flex justify-around items-center h-full px-4 py-2 ">
         <Link to="/" className="flex items-center gap-x-2">
           <div className="text-2xl dark:text-white">Movie App</div>
